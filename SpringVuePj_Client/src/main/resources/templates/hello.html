@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+>
+<head>
+  <title>hello.html</title>
+</head>
+<body>
+<h1>Hello world!</h1>
+<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+<!--登出操作-->
+<form th:action="@{/logout}" method="post">
+  <input type="submit" value="Sign Out" />
+</form>
+<!--按钮方式转跳到login界面;th:href只能a标签用;但不具备和表单一样的？参数；只是单纯的转跳-->
+<!-- action适用于form标签-->
+<a th:href="@{/login}">重登</a>
+</body>
+</html>

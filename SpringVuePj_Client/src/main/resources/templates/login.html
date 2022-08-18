@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org"
+        xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+>
+<head>
+    <title>Spring Security Example</title>
+</head>
+<body>
+<!--布尔表达式；输入时参数是否与param.error相同是就输出文字到浏览器-->
+<!--http://localhost:8090/login?logout  logout就是参数名-->
+<div th:if="${param.error}">Invalid username and password.</div>
+<div th:if="${param.logout}">You have been logged out.</div>
+<form th:action="@{/login}" method="post">
+<!--  提供一表单来获取用户名和密码，并提交到/login  -->
+<!--  根据适配器，Spring Security提供了一个拦截请求并验证用户的过滤器  -->
+<!--  用户未通过认证，页面将重定向到“/login？error”  -->
+    <div>
+        <label>
+            User Name :
+            <input type="text" name="username" />
+        </label>
+    </div>
+    <div>
+        <label>
+            Password:
+            <input type="password" name="password" />
+        </label>
+    </div>
+    <div><input type="submit" value="Sign In" /></div>
+</form>
+</body>
+</html>

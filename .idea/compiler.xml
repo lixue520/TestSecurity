@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Security_core" />
+        <module name="SpringCore" />
+        <module name="SpringComment" />
+        <module name="SpringVuePj_Client" />
+        <module name="SpringClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="Security_common" target="18" />
+      <module name="Security_core" target="18" />
+      <module name="shiyanlou_security_client" target="18.0.1" />
+      <module name="shiyanlou_security_common" target="1.5" />
+      <module name="shiyanlou_security_core" target="1.5" />
+      <module name="SpringSecurityCom" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Security_common" options="" />
+      <module name="SpringClient" options="-parameters" />
+      <module name="SpringSecurityCom" options="-parameters" />
+      <module name="SpringVuePj_Client" options="-parameters" />
+      <module name="weappdemo" options="" />
+    </option>
+  </component>
+</project>

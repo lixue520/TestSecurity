@@ -10,9 +10,7 @@
 
 	<modules>
 		<module>SpringVuePj_Client</module>
-		<module>SpringComment</module>
-		<module>SpringCore</module>
-
+		<module>SecurityCore</module>
 	</modules>
 
 

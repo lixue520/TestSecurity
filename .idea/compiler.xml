@@ -8,10 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Security_core" />
-        <module name="SpringCore" />
-        <module name="SpringComment" />
         <module name="SpringVuePj_Client" />
-        <module name="SpringClient" />
+        <module name="SecurityCore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
@@ -20,6 +18,9 @@
       <module name="shiyanlou_security_client" target="18.0.1" />
       <module name="shiyanlou_security_common" target="1.5" />
       <module name="shiyanlou_security_core" target="1.5" />
+      <module name="SpringClient" target="18" />
+      <module name="SpringComment" target="1.8" />
+      <module name="SpringCore" target="1.8" />
       <module name="SpringSecurityCom" target="17" />
     </bytecodeTargetLevel>
   </component>

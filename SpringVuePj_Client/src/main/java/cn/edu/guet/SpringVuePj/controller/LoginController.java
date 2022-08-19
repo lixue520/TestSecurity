@@ -1,6 +1,8 @@
 package cn.edu.guet.SpringVuePj.controller;
 
+import cn.edu.guet.SecurityCore.Bean.User;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -11,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController   //RestController与Controller的区别就在于返回的String是否会是文件.html
 public class LoginController {
 
-    @PostMapping("loginu")
+    @RequestMapping("loginTest")
     // SpringBoot还提供了接收JSON格式的参数
-    public String login(String username,String password){// 表单格式
+    public String login(){// 表单格式
     //public String login(@RequestBody LoginBean loginBean) {// JSON格式
         System.out.println("准备登录");
-        System.out.println(username);
-        System.out.println(password);
-        return "";
+//        System.out.println(username);
+//        System.out.println(password);
+        return new User().User();
     }
 }

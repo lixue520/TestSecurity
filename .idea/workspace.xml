@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2309d3-9814-4ec3-81ef-5197296b8662" name="变更" comment="" />
+    <list default="true" id="7f2309d3-9814-4ec3-81ef-5197296b8662" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecurityCore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/Bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringClient/src/main/java/cn/edu/guet/SpringClient/SpringClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringClient/src/main/java/cn/edu/guet/SpringClient/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/seurity/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringClient/src/main/java/cn/edu/guet/SpringClient/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringClient/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringComment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringComment/src/main/java/cn/edu/guet/SpringComment/pojo/RestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/pojo/RestResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/controller/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/authentication/ShiyanlouAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/authentication/ShiyanlouAuthenticationFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/authentication/ShiyanlouAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/authentication/ShiyanlouAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/properties/LoginResponseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/properties/LoginResponseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/properties/SecurityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/properties/SecurityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/properties/SecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/properties/SecurityProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/validate/SmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/validate/SmsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/validate/ValidateCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/validate/ValidateCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/validate/ValidateCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/validate/ValidateCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCore/src/main/java/cn/edu/guet/SpringCore/validate/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/validate/ValidateCodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVuePj_Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVuePj_Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/SpringVuePjApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/SpringVuePjApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVuePj_Client/src/main/java/cn/edu/guet/SpringVuePj/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +50,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -41,11 +75,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2CyKpkNC6zFZW9gUT1TBsE15Hcu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -53,9 +91,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-18" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringClient/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SecurityCore/src/main/java/cn/edu/guet/SecurityCore/validate" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,18 +107,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qin\Desktop\Study\JavaStudy\Spring\TestSecurity\SecurityCore\src\main\java\cn\edu\guet\SecurityCore\validate" />
+      <recent name="C:\Users\qin\Desktop\Study\JavaStudy\Spring\TestSecurity\SecurityCore\src\main\java\cn\edu\guet\SecurityCore\properties" />
+      <recent name="C:\Users\qin\Desktop\Study\JavaStudy\Spring\TestSecurity\SecurityCore\src\main\java\cn\edu\guet\SecurityCore\authentication" />
+      <recent name="C:\Users\qin\Desktop\Study\JavaStudy\Spring\TestSecurity\SecurityCore\src\main\java\cn\edu\guet\SecurityCore" />
       <recent name="C:\Users\qin\Desktop\AxiosPj\Test\菜鸟入门\weappdemo\SpringClient\src\main\resources" />
-      <recent name="C:\Users\qin\Desktop\AxiosPj\Test\菜鸟入门\weappdemo\SpringCore\src\main\java\cn\edu\guet\SpringCore" />
-      <recent name="C:\Users\qin\Desktop\AxiosPj\Test\菜鸟入门\weappdemo\SpringComment\src\main\java\cn\edu\guet\SpringComment" />
-      <recent name="C:\Users\qin\Desktop\AxiosPj\Test\菜鸟入门\weappdemo\SpringClient\src\main\java\cn\edu\guet\SpringClient" />
-      <recent name="C:\Users\qin\Desktop\AxiosPj\Test\菜鸟入门\weappdemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.edu.guet.SpringClient" />
-      <recent name="cn.edu.guet.SpringComment.pojo" />
-      <recent name="cn.edu.guet.SpringClient.service.impl" />
-      <recent name="cn.edu.guet.SpringClient.impl" />
-      <recent name="cn.edu.guet.SpringClient.security" />
+      <recent name="cn.edu.guet.SecurityCore" />
+      <recent name="cn.edu.guet.SecurityCore.service.impl" />
+      <recent name="cn.edu.guet.SecurityCore.seurity" />
+      <recent name="cn.edu.guet.SecurityCore.pojo" />
+      <recent name="cn.edu.guet.SecurityCore.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,7 +128,35 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringClientApplication">
+  <component name="RunManager" selected="Spring Boot.SpringVuePjApplication">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SecurityCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.guet.SecurityCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.guet.SecurityCore.ClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SecurityCore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.guet.SecurityCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.guet.SecurityCore.SecurityCoreApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringClient" />
       <extension name="coverage">
@@ -101,6 +168,14 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.guet.SpringClient.SpringClientApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringVuePjApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringVuePj_Client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.guet.SpringVuePj.SpringVuePjApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,9 +197,14 @@
     <list>
       <item itemvalue="Spring Boot.SpringVuePjApplication" />
       <item itemvalue="Spring Boot.SpringClientApplication" />
+      <item itemvalue="Spring Boot.SpringVuePjApplication (1)" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.SecurityCoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SecurityCoreApplication" />
+        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.SpringClientApplication" />
       </list>
     </recent_temporary>
@@ -141,11 +221,15 @@
       <workItem from="1660046477443" duration="14000" />
       <workItem from="1660746950211" duration="7637000" />
       <workItem from="1660788108808" duration="38413000" />
+      <workItem from="1660883040256" duration="2754000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/weappdemo$SpringClientApplication.ic" NAME="SpringClientApplication 覆盖结果" MODIFIED="1660838495729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

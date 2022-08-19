@@ -1,5 +1,0 @@
-spring:
-  mvc:
-    dispatch-options-request: true
-  session:
-    store-type: none

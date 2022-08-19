@@ -46,7 +46,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 //将 /login表单认证解放
-                .antMatchers("/authentication/*","/","/home","/login")
+                .antMatchers("/authentication/*","/","/home","/login","/loginTest")
                 .permitAll()
                 .anyRequest()
                 .authenticated()

@@ -7,12 +7,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringSecurityCom/pom.xml" />
         <option value="$PROJECT_DIR$/SpringVuePj/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringClient/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Security_core/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringComment/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCore/pom.xml" />
         <option value="$PROJECT_DIR$/shiyanlou_security_client/pom.xml" />
         <option value="$PROJECT_DIR$/shiyanlou_security_common/pom.xml" />
         <option value="$PROJECT_DIR$/shiyanlou_security_core/pom.xml" />
